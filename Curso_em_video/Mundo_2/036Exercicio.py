@@ -6,4 +6,15 @@
 # Calcule o valor da prestação mensal sabendo que ela não pode exceder 30% do salário ou 
 # então o empréstimo será negado.
 
-value = float(input("Enter with a house's value: "))
+house_value = float(input("Enter with a house's value: "))
+salary = float(input("Enther with the salary: "))
+years = int(input("Enther how much years do you spend to pay: "))
+
+installment = house_value / (years * 12)
+temp = salary * 0.3
+
+print(temp)
+if temp >= installment:
+	print("Congratulation, your loan was released")
+else:
+	print("Sorry your loan was not approved")
