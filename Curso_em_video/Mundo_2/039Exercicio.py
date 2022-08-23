@@ -14,5 +14,8 @@ if age == 18:
 	print("Time to enlist")
 elif age < 18:
 	print("You don't have to enlist yet")
+	print("Still {} yars to enlist".format(18 - age))
 else:
 	print("You are so old that you don't need to enlist anymore" )
+	print("You enlist spent {} years".format(age - 18))
+	
