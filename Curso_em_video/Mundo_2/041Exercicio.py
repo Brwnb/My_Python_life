@@ -6,8 +6,12 @@
 # Até 19 anos: junior
 # Até 20 anos: Sênior
 # Acima: Master
+from datetime import date
 
-age = int(input("Enter with the birth year: "))
+birth_date = int(input("Enter with the birth year: "))
+today = date.today().year
+age = today - birth_date
+
 
 if age < 10 and age >0:
 	print("The kid will be classifield as mirim")
@@ -21,3 +25,4 @@ elif age > 20:
 	print("The youth will be classifield as Master")
 else:
 	print("Enter with a valid value")
+print("The athlete is {} years".format(age))
