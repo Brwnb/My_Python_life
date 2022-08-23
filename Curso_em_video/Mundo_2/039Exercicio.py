@@ -7,3 +7,12 @@
 #
 # Seu programa também deverá mostrar o tempo que falta 
 # ou que passou do prazo.
+
+age = int(input("Enter with the your birth year: "))
+
+if age == 18:
+	print("Time to enlist")
+elif age < 18:
+	print("You don't have to enlist yet")
+else:
+	print("You are so old that you don't need to enlist anymore" )
