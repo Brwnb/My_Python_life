@@ -6,7 +6,8 @@ count = 0
 for i in range(1,501, 2):
 	if i % 3 == 0:
 		count += 1
-		plus += i
+		plus +=
+		 i
 
 print("\n")
 print("The total of {} sum is {}".format(count, plus))
