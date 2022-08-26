@@ -3,14 +3,17 @@
 # No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas 
 #já são maiores. A maior idade será com 21 anos.
 
-count_majority
-count_minority
+from datetime import date
+count_majority = 0
+count_minority = 0
 for i in range(7):
-	value = int(input("Enter with a value: "))
+	year = int(input("Enter with a year: "))
+	today = date.today().year
+	value = today - year
 	if value < 21:
 		count_minority += 1
 	else:
-		count_majority
+		count_majority += 1
 
 print("The quantity of Majority is {}. ".format(count_majority))
 print("The quantity fo Minority is {}".format(count_minority))
