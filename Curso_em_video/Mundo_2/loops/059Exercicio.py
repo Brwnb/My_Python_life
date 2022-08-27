@@ -10,22 +10,25 @@ while run:
 	print("3 escolher o maior valor")
 	print("4 novos números")
 	print("5 sair")
-	value = input("Escolha um valor acima")
-	num1 = int(input('Digite um valor'))
-	num2 = int(input('Digite outro valor'))
-	
+	value = input("Escolha um valor acima: ")
 	if value == '1':
+		num1 = int(input('Digite um valor: '))
+		num2 = int(input('Digite outro valor: '))
 		print("O valor da Soma é: {}".format(num1 + num2))
 	elif value == '2':
+		num1 = int(input('Digite um valor: '))
+		num2 = int(input('Digite outro valor: '))
 		print("O valor da multiplicação é: {}".format(num1 * num2))
 	elif value == '3':
+		num1 = int(input('Digite um valor: '))
+		num2 = int(input('Digite outro valor: '))
 		if num1 > num2:
 			print("O maior valor é {}".format(num1))
 		else:
 			print("O maior valor é {}".format(num2))
 	elif value == '4':
-		num1 = int(input('Digite um valor'))
-		num2 = int(input('Digite outro valor'))
+		num1 = int(input('Digite um valor: '))
+		num2 = int(input('Digite outro valor: '))
 	elif value == '5':
 		run = False
 
