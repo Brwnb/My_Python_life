@@ -9,3 +9,10 @@ while value > 1:
 	value -= 1
 
 print(fatorial)
+
+"""
+from math import fatorial
+n = int(input("Enter with a number"))
+f = factorial(n)
+print("The fatorial is {}" .format(f))
+"""

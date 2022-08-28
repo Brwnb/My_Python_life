@@ -31,5 +31,6 @@ while run:
 		num2 = int(input('Digite outro valor: '))
 	elif value == '5':
 		run = False
+		print("Thanks to used the program!!!")
 
 

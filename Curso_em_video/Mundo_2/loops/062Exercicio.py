@@ -3,6 +3,7 @@
 # Para sair o usuário deve digitar 0 em termos.
 
 
+
 n = 0
 count = 0
 while True:
