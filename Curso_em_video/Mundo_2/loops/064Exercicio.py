@@ -3,10 +3,8 @@
 #O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. 
 #No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).
 
-count = 0
-plus = 0
-value = 0
-quit = 0 
+count = plus = value = quit =0
+
 while quit != '999':
 	value = int(input("Enter with a value: "))
 	plus = plus + value
