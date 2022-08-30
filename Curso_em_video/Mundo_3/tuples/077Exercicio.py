@@ -9,5 +9,4 @@ for i in tupla:
 	for j in i:
 		if j in 'aeiou':
 			print(j, end=" ")
-		
 	print()
