@@ -14,5 +14,4 @@ while True:
 	if value >= 0 and value <= 20:
 		print(f"O número escolhido é {tuple_made[value]}")
 		break
-	else:
-		value = int(input("Entre com um valor entre entre 0 e 20:  "))
+	value = int(input("Entre com um valor entre entre 0 e 20:  "))
