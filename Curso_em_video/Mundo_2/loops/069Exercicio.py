@@ -6,12 +6,9 @@
 ##B) quantos homens foram cadastrados.
 #C) quantas mulheres tem menos de 20 anos. 
 
-age = 0
 sex =''
-age_people = 0
-age_female = 0
-count_male = 0
-count_female = 0
+age_people = age = age_female = count_male = count_female = 0
+
 while True:
 	sex = input("Enter with your sex[M/F]: ").upper()
 	age = int(input("Enter with your age: "))
