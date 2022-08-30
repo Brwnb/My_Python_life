@@ -23,5 +23,6 @@ for i in range(len(tuplas)):
 print(f"O menor {menor} e o maior {maior}")
 print("=+="*2)
 
+#Usando funções do python
 #print(f"O maior é {max(tuplas)}")
 #print(f"O menor é {min(tuplas)}")

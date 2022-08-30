@@ -4,7 +4,8 @@
 #B) Em que posição foi digitado o primeiro valor 3.
 #C) Quais foram os números pares.
 
-tupla = (int(input("Digite um valor: ")),int(input("Digite um valor: ")),int(input("Digite um valor: ")),int(input("Digite um valor: ")))
+tupla = (int(input("Digite um valor: ")),int(input("Digite um valor: ")),\
+	int(input("Digite um valor: ")),int(input("Digite um valor: ")))
 
 print(f"Quantas vezes apareceu o numero 9 {tupla.count(9)}")
 if 3 in tupla:
