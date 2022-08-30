@@ -5,8 +5,10 @@
 # número pelo teclado (entre 0 e 20) e mostrá-lo por 
 #extenso
 
-tuple_made = ('zero','um', 'dois','três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', \
-	'treze', 'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoite', 'dezenove', 'vinte')
+tuple_made = ('zero','um', 'dois','três', 'quatro', 'cinco', \
+	'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', \
+	'treze', 'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoite', \
+	'dezenove', 'vinte')
 
 
 while True:
