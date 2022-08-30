@@ -7,14 +7,7 @@ tupla = ('Maça', 'Laranja', 'Pera', 'Mamao')
 for i in tupla:
 	print(i, end=" || ")
 	for j in i:
-		if j == 'a':
+		if j in 'aeiou':
 			print(j, end=" ")
-		elif j == 'e':
-			print(j, end=" ")
-		elif j == 'i':
-			print(j, end=" ")
-		elif j == 'o':
-			print(j, end=" ")
-		elif j == 'u':
-			print(j, end=" ")
+		
 	print()
