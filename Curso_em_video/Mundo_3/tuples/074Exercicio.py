@@ -21,3 +21,7 @@ for i in range(len(tuplas)):
 	if maior <= tuplas[i]:
 		maior = tuplas[i]
 print(f"O menor {menor} e o maior {maior}")
+print("=+="*2)
+
+#print(f"O maior é {max(tuplas)}")
+#print(f"O menor é {min(tuplas)}")
