@@ -2,17 +2,21 @@
 #Depois disso, crie duas listas extras que vão conter apenas os valores pares e os valores 
 #ímpares digitados, respectivamente. Ao final, mostre o conteúdo das três listas geradas.
 
-from random import randint
+#from random import randint
 
 lista = list()
-count = 0
+#count = 0
 impar = list()
 par = list()
-while count <15:
-	#lista.append(int(input("Entre com um valor: ")))
-	#resp = input("Quer continuar [S/N]")
-	lista.append(randint(-50, 100))
-	count += 1
+
+while True:
+#while count <15:
+	lista.append(int(input("Entre com um valor: ")))
+	resp = input("Quer continuar [S/N]")
+	if resp in 'Nn':
+		break
+	#lista.append(randint(-50, 100))
+	#count += 1
 for number in lista:
 	print(number)
 	if number % 2 == 0:
